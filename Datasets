@@ -1,0 +1,71 @@
+# Datasets
+
+All datasets used in this book are publicly available. This folder contains small sample files for quick exploration. Full datasets must be downloaded from their original sources as described below.
+
+---
+
+## Dataset Index
+
+### 1. TCGA Breast Cancer Genomics (TCGA-BRCA)
+- **Used in:** Chapters 3, 5, 6
+- **Source:** [GDC Data Portal](https://portal.gdc.cancer.gov/)
+- **Description:** Gene expression, copy number variation, and clinical metadata for breast cancer patients
+- **License:** NIH Genomic Data Commons — open access tier
+- **Download:**
+  ```python
+  # Install GDC client or use API
+  # See Ch03_Data_Sources/tcga_download.ipynb for step-by-step instructions
+  ```
+
+---
+
+### 2. Heart Disease Clinical Dataset
+- **Used in:** Chapters 5, 9
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/45/heart+disease)
+- **Description:** 303 patient records with 14 clinical attributes for heart disease classification
+- **License:** CC BY 4.0
+- **Download:** Included as `datasets/heart_disease.csv`
+
+---
+
+### 3. Human Protein Sequences (UniProt/Swiss-Prot)
+- **Used in:** Chapter 3
+- **Source:** [UniProt](https://www.uniprot.org/uniprotkb?query=reviewed:true)
+- **Description:** Reviewed human protein entries with functional annotations
+- **License:** Creative Commons Attribution (CC BY 4.0)
+- **Download:** See `Ch03_Data_Sources/uniprot_fetch.ipynb`
+
+---
+
+### 4. Drug–Target Interaction (ChEMBL)
+- **Used in:** Chapter 9
+- **Source:** [ChEMBL Database](https://www.ebi.ac.uk/chembl/)
+- **Description:** Bioactivity data linking compounds to biological targets
+- **License:** Creative Commons Attribution-ShareAlike 3.0
+- **Download:** See `Ch09_Decision_Support/chembl_query.ipynb`
+
+---
+
+### 5. Diabetes Clinical Dataset (PIMA Indians)
+- **Used in:** Chapters 5, 9
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) (CC0 Public Domain)
+- **Description:** 768 patient records for diabetes prediction
+- **License:** CC0 — no rights reserved
+- **Download:** Included as `datasets/diabetes.csv`
+
+---
+
+### 6. COVID-19 Patient and Epidemiology Data
+- **Used in:** Chapters 7, 11
+- **Source:** [Our World in Data](https://ourworldindata.org/coronavirus)
+- **Description:** Global COVID-19 case counts, hospitalisations, and vaccination records
+- **License:** CC BY 4.0
+- **Download:** See `Ch11_Case_Studies/covid_analytics.ipynb`
+
+---
+
+## Notes on Data Use
+
+- Do not redistribute raw TCGA data outside the terms of the GDC Data Use Agreement.
+- All other datasets included directly in this repository are under open licenses permitting reuse with attribution.
+- For educational use only — do not use these datasets for clinical decision-making.
